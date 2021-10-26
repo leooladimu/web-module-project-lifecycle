@@ -1,3 +1,16 @@
+body {
+  /* position: absolute; */
+  /* top: 50%; */
+  left: 50%;
+  width: 400px;
+  padding: 90px;
+  font-family: sans-serif;
+  color: red;
+  background: linear-gradient(#141e30, #243b55);
+}
+
+
+/* 
 .App {
   text-align: center;
 }
@@ -35,4 +48,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
