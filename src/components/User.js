@@ -22,11 +22,12 @@ class User extends React.Component {
 
     render() {
         return <div>
-            <h2>{this.state.user.name}</h2>
             <img
                 style={{ width: '100px', borderRadius: '50%'}} 
                 src={this.state.user.avatar_url} 
             />
+            <h3>{this.state.user.name}</h3>
+            <p>Where: {this.state.user.location}</p>
         </div>
     }
 }
